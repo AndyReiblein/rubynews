@@ -1,8 +1,9 @@
 module Hackernews
   class Client
     def initialize
-      @host = 'community-hacker-news-v1.p.rapidapi.com'
-      @key = 'd23d9e832bmshe3c12798e899905p14f4c1jsned0b0b829bcb'
+      @host = "community-hacker-news-v1.p.rapidapi.com"
+      @key = "d23d9e832bmshe3c12798e899905p14f4c1jsned0b0b829bcb"
+      #Rails.application.secrets.key
     end
 
     def item(id)
